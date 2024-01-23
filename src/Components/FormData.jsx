@@ -45,23 +45,23 @@ function FormData() {
       <div className="left">
         <div className="header">
           <h2 className="hsp-name-form">UCLA Health – Ronald Reagan  Medical Center</h2>
-          <h4 className="animation a2">Be Healthy</h4>
+          <h4 className="">Be Healthy</h4>
         </div>
         <div className="form">
 
         <input
               type="text"
-              className="form-field animation a3"
+              className="form-field"
               placeholder="Name"
               ref={formRefs.name}
             />
 
-          <input type="text" className="form-field animation a4" placeholder="Contact"       ref={formRefs.contact} />
+          <input type="text" className="form-field" placeholder="Contact"       ref={formRefs.contact} />
 
 
 
           <select
-  className="form-field animation a4"
+  className="form-field"
   value={formDetails.gender}
   onChange={handleGenderChange}
   ref={formRefs.gender}
@@ -76,28 +76,28 @@ function FormData() {
 
 
 
-          <input type="text" className="form-field animation a4" placeholder="Age"     ref={formRefs.age}  />
+          <input type="text" className="form-field" placeholder="Age"     ref={formRefs.age}  />
 
         <input
   type="date"
-  className="form-field animation a4"
+  className="form-field"
   id="dob"
   ref={formRefs.dob}
   onfocus="this.type='date'"
   onblur="if(!this.value) this.type='text'"
 />
 
-          <input type="text" className="form-field animation a4" placeholder="Address"       ref={formRefs.address} />
+          <input type="text" className="form-field" placeholder="Address"       ref={formRefs.address} />
 
-          <input type="text" className="form-field animation a4" placeholder="Dr name"     ref={formRefs.drName} />
+          <input type="text" className="form-field" placeholder="Dr name"     ref={formRefs.drName} />
 
-          <input type="text" className="form-field animation a4" placeholder="Speciality"     ref={formRefs.speciality} />
+          <input type="text" className="form-field" placeholder="Speciality"     ref={formRefs.speciality} />
 
-          <input type="text" className="form-field animation a4" placeholder="Symptoms"     ref={formRefs.symptoms} />
+          <input type="text" className="form-field" placeholder="Symptoms"     ref={formRefs.symptoms} />
 
     
        
-          <button className="animation a6"   onClick={handleSubmit}> SUBMIT </button>
+          <button className=""   onClick={handleSubmit}> SUBMIT </button>
      
         </div>
       </div>
