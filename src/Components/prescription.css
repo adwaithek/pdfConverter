@@ -1,0 +1,64 @@
+.prescription-main {
+    margin: auto;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    box-sizing: border-box;
+  }
+  
+  .hospital-addresss {
+    text-align: center;
+    padding-bottom: 18px;
+    border-bottom: 3px solid #4f46a5;
+  }
+  
+  .hsp_pd {
+    width: 100%;
+    max-width: 26rem;
+    margin: auto;
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .pat-detail{
+    line-height: 1.4;
+  }
+  
+  .drname {
+    margin-bottom: 8px;
+    color: #4f46a5;
+  }
+  
+  .hspname {
+    color: #4f46a5;
+  }
+  
+  .sl-date {
+    text-align: right;
+    font-size: 12px;
+  }
+  
+ 
+  @media only screen and (max-width: 600px) {
+    .hospital-addresss {
+      padding-bottom: 12px;
+    }
+  
+    .hsp_pd {
+      max-width: 100%;
+    }
+  }
+  @media only screen and (min-width: 980px) {
+.prescription-main {
+    max-width: 62% !important;
+}
+  }
+  
+
+  .pdf-btn{
+    border: 1px solid #b2b2b2;
+    background-color: #fff;
+    padding: 8px;
+    cursor: pointer;
+  }
