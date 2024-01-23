@@ -78,7 +78,14 @@ function FormData() {
 
           <input type="text" className="form-field animation a4" placeholder="Age"     ref={formRefs.age}  />
 
-          <input type="date" style={{ width: '100%' }} className="form-field animation a4" placeholder="dob"     ref={formRefs.dob} />
+        <input
+  type="date"
+  className="form-field animation a4"
+  id="dob"
+  ref={formRefs.dob}
+  onfocus="this.type='date'"
+  onblur="if(!this.value) this.type='text'"
+/>
 
           <input type="text" className="form-field animation a4" placeholder="Address"       ref={formRefs.address} />
 
