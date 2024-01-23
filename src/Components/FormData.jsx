@@ -78,14 +78,7 @@ function FormData() {
 
           <input type="text" className="form-field" placeholder="Age"     ref={formRefs.age}  />
 
-        <input
-  type="date"
-  className="form-field"
-  id="dob"
-  ref={formRefs.dob}
-  onfocus="this.type='date'"
-  onblur="if(!this.value) this.type='text'"
-/>
+            <input type="date"  style={{ width: '100%' }}  className="form-field" placeholder="dob"     ref={formRefs.dob} />
 
           <input type="text" className="form-field" placeholder="Address"       ref={formRefs.address} />
 
